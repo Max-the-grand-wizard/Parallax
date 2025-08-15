@@ -17,8 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 countryTitle.textContent = country.country;
                 countryContainer.appendChild(countryTitle);
 
-                const countryName = country.country.toLowerCase();
-                const imagePath = `../Extras/Pictures/Flags/${countryName}Banner.webp`;
+                const countryName = country.country;
+                const imagePath = `Extras/Pictures/Flags/${countryName}Banner.webp`;
                 console.log('Image path:', imagePath);
                 countryContainer.style.backgroundImage = `url(${imagePath})`;
 
@@ -65,3 +65,4 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Error loading JSON data:', error));
 });
+
