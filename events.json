@@ -1,0 +1,168 @@
+[
+    {
+        "country": "Japan",
+        "races": [
+            {
+                "city": "Tokyo",
+                "time": "8:00 PM",
+                "date": "2025-05-03",
+                "place": "Shibuya Crossing",
+                "description": "Experience the thrill of Tokyo's neon-lit streets with high-speed racing."
+            },
+            {
+                "city": "Osaka",
+                "time": "7:00 PM",
+                "date": "2025-05-05",
+                "place": "Dotonbori",
+                "description": "Race through the vibrant streets of Osaka's entertainment district."
+            },
+            {
+                "city": "Kyoto",
+                "time": "6:00 PM",
+                "date": "2025-05-07",
+                "place": "Arashiyama Bamboo Grove",
+                "description": "Navigate the serene paths of Kyoto's iconic bamboo forest."
+            },
+           
+            {
+                "city": "Sapporo",
+                "time": "5:30 PM",
+                "date": "2025-05-11",
+                "place": "Odori Park",
+                "description": "Race through Sapporo's spacious boulevards framed by scenic parks and mountains."
+            }
+        ]
+    },
+    {
+        "country": "USA",
+        "races": [
+            {
+                "city": "Los Angeles",
+                "time": "6:00 PM",
+                "date": "2025-05-10",
+                "place": "Pacific Coast Highway",
+                "description": "Cruise along the iconic West Coast with breathtaking views and sharp turns."
+            },
+            {
+                "city": "New York",
+                "time": "9:00 PM",
+                "date": "2025-05-12",
+                "place": "Times Square",
+                "description": "Race through the bustling streets of the city that never sleeps."
+            },
+            {
+                "city": "Miami",
+                "time": "7:00 PM",
+                "date": "2025-05-14",
+                "place": "Ocean Drive",
+                "description": "Feel the heat of Miami's nightlife as you race along the beachside."
+            },
+            {
+            "city": "Las Vegas",
+            "time": "10:00 PM",
+            "date": "2025-05-16",
+            "place": "Las Vegas Strip",
+            "description": "Dash through the neon-lit streets of Vegas surrounded by glitz, glam, and adrenaline."
+        }
+        ]
+    },
+    {
+        "country": "France",
+        "races": [
+            {
+                "city": "Paris",
+                "time": "9:00 PM",
+                "date": "2025-05-17",
+                "place": "Eiffel Tower",
+                "description": "Race through the romantic streets of Paris, blending speed with elegance."
+            },
+            {
+                "city": "Nice",
+                "time": "7:00 PM",
+                "date": "2025-05-19",
+                "place": "Promenade des Anglais",
+                "description": "Enjoy the scenic coastal roads of the French Riviera."
+            },
+            {
+                "city": "Lyon",
+                "time": "6:00 PM",
+                "date": "2025-05-21",
+                "place": "Old Town",
+                "description": "Navigate the historic streets of Lyon with its unique charm."
+            },
+               {
+            "city": "Marseille",
+            "time": "8:00 PM",
+            "date": "2025-05-23",
+            "place": "Old Port",
+            "description": "Speed along the Mediterranean harbor of Marseille with sea breeze and city lights."
+        }
+        ]
+    },
+    {
+        "country": "UK",
+        "races": [
+            {
+                "city": "London",
+                "time": "8:00 PM",
+                "date": "2025-05-24",
+                "place": "Tower Bridge",
+                "description": "Dash through the heart of London past its iconic landmarks."
+            },
+            {
+                "city": "Manchester",
+                "time": "7:00 PM",
+                "date": "2025-05-26",
+                "place": "Canal Street",
+                "description": "Speed through Manchester’s vibrant nightlife district."
+            },
+            {
+                "city": "Edinburgh",
+                "time": "6:00 PM",
+                "date": "2025-05-28",
+                "place": "Royal Mile",
+                "description": "Race through the historic streets of Scotland’s capital."
+            },
+              {
+            "city": "Liverpool",
+            "time": "7:30 PM",
+            "date": "2025-05-30",
+            "place": "Albert Dock",
+            "description": "Glide along Liverpool’s waterfront past historic docks and modern nightlife."
+        }
+        ]
+    },
+    {
+        "country": "Germany",
+        "races": [
+            {
+                "city": "Berlin",
+                "time": "9:00 PM",
+                "date": "2025-06-01",
+                "place": "Brandenburg Gate",
+                "description": "Race through Germany’s capital, steeped in history and adrenaline."
+            },
+            {
+                "city": "Munich",
+                "time": "7:00 PM",
+                "date": "2025-06-03",
+                "place": "Marienplatz",
+                "description": "Experience a high-speed challenge in the heart of Bavarian culture."
+            },
+            {
+                "city": "Hamburg",
+                "time": "6:00 PM",
+                "date": "2025-06-05",
+                "place": "Reeperbahn",
+                "description": "Feel the pulse of the city as you race through its entertainment district."
+            },
+             {
+            "city": "Cologne",
+            "time": "8:00 PM",
+            "date": "2025-06-07",
+            "place": "Cologne Cathedral",
+            "description": "Sprint past the towering Gothic cathedral and along the Rhine River."
+        }
+        ]
+    }
+]

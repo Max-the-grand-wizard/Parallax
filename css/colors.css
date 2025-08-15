@@ -1,0 +1,30 @@
+:root {
+    /* --- LILA & VIOLETTA NYANSER --- */
+    --purple-very-deep: #2e003e; 
+    --purple-main: #6d06ad;
+    --purple-deep: #6a1b9a;
+    --purple-glow: #8e24aa;
+    --purple-pale: #d1c4e9;
+    --purple-dark: #4B0082;
+    --purple-berry: #ad1457;
+    --purple-midnight: #3e0050;
+  
+    /* --- TEAL / GRÖNBLÅ --- */
+    --teal-main: #1de9b6;
+    --teal-dark: #008080;
+    --teal-muted: #359381;
+  
+    /* --- ORANGE & VARMA TONER --- */
+    --orange-main: #FF8C00;
+    --orange-warm: #FF6F00;
+    --orange-soft: #ff7043;
+    --pink-soft: #d87093;
+  
+    /* --- NEUTRALA / GRÅSKALA --- */
+    --neutral-dark: #2c2c2c;
+    --neutral-mid: #555;
+    --neutral-light: #ccc;
+    --neutral-deep: #333;
+    --white: #fff;
+  }
+  

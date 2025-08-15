@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal project showcasing car racing and nightlife. Explore the adrenaline of racing in different countries.">
+    <title>Personal project</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Workbench&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Akronim&family=Workbench&display=swap" rel="stylesheet"> <!--för footer heading?-->
+
+
+
+
+
+    <link rel="stylesheet" href="./css/colors.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/audio.css">
+    <link rel="stylesheet" href="./css/slideshow.css">
+    <link rel="stylesheet" href="./css/events.css">
+</head>
+
+
+<body>
+
+    <header>
+  <h2 class="header__logo">Logo</h2>
+
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <nav class="navigation" id="nav">
+    <a href="#" class="active"><i class="fas fa-home"></i> Home</a>
+    <a href="#"><i class="fas fa-user"></i> About</a>
+    <a href="#"><i class="fas fa-cogs"></i> Service</a>
+    <a href="#"><i class="fas fa-envelope"></i> Contact</a>
+  </nav>
+</header>
+
+
+
+    <section class="parallax first-picture-section">
+        <img src="./Extras/Pictures/nightlife.webp" loading="eager" alt="Nightlife" class="first-picture-section__image">
+        <h2 id="text">Want to explore the nightlife?</h2>
+    </section>
+
+
+
+
+    <section class="loading">
+      <h2 class="loading__title">
+  Loading content
+  <span class="loading__dots">
+    <span>.</span><span>.</span><span>.</span>
+  </span>
+</h2>
+        <img src="./Extras/Pictures/moving-car-image.png" alt="car without background" class="loading__image">
+    </section>
+
+
+    <section class="animated-section">
+        <div class="animated-section__container">
+            <!-- Wrap image  -->
+            <div class="animated-section__image-wrapper">
+                <img class="animated-section__image" src="./Extras/Pictures/whiteCar.webp" loading="lazy" alt="music image">
+                <audio class="animated-section__audio">
+                    <source src="./Extras/Audio/gardens-stylish-chill-303261.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                 <!-- Textbubbla -->
+    <div class="animated-section__bubble">🎵 Artist: Penguinmusic</div>
+</div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="slideshow-section"> <!--Think i can delete parallax, add the class parallax if needed-->
+        <div class="slideshow-wrapper">
+            <h2 class="slideshow-heading">Races</h2>
+        <div class="slideshow">
+            <div class="slideshow__card">
+                <div class="slideshow__card-inner">
+                    <!-- Front Side -->
+                    <div class="slideshow__card-front">
+                        <img src="./Extras/Pictures/Tokyo.webp" loading="lazy" alt="Picture of Tokyo">
+                    </div>
+                    <!-- Back Side -->
+                    <div class="slideshow__card-back">
+                        <h3 class="slideshow__title">Japan</h3>
+                        <p class="slideshow__description">Feel the adrenaline pumping in Tokyo's nightlife as the neon lights sweep past at breakneck speed. A city where tradition meets technology – and where the race never sleeps.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slideshow__card">
+                <div class="slideshow__card-inner">
+                    <!-- Front Side -->
+                    <div class="slideshow__card-front">
+                        <img src="./Extras/Pictures/Usa.webp" loading="lazy" alt="drifitng in USA">
+                    </div>
+                    <!-- Back Side -->
+                    <div class="slideshow__card-back">
+                        <h3 class="slideshow__title"> USA</h3>
+                        <p class="slideshow__description">Cruise along the coast from San Francisco to Los Angeles – with the sun in your rearview mirror and wild roads ahead. Westside offers freedom, speed and California attitude</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slideshow__card">
+                <div class="slideshow__card-inner">
+                    <!-- Front Side -->
+                    <div class="slideshow__card-front">
+                        <img src="./Extras/Pictures/Paris-racing.webp" loading="lazy" alt="Racing in Paris">
+                    </div>
+                    <!-- Back Side -->
+                    <div class="slideshow__card-back">
+                        <h3 class="slideshow__title">France</h3>
+                        <p class="slideshow__description">Do you whiz past the Eiffel Tower or through narrow cobblestone alleys? Paris offers a dramatic blend of romance and speed – a race with style and history.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slideshow__card">
+                <div class="slideshow__card-inner">
+                    <!-- Front Side -->
+                    <div class="slideshow__card-front">
+                        <img src="./Extras/Pictures/Germany.webp" loading="lazy" alt="Racing in Germany">
+                    </div>
+                    <!-- Back Side -->
+                    <div class="slideshow__card-back">
+                        <h3 class="slideshow__title">Germany</h3>
+                        <p class="slideshow__description">No speed limit. No compromises. On the Autobahn, it's you, the machine and an endless road ahead. German engineering and raw power in perfect harmony.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slideshow__card">
+                <div class="slideshow__card-inner">
+                    <!-- Front Side -->
+                    <div class="slideshow__card-front">
+                        <img src="./Extras/Pictures/UK.webp" loading="lazy" alt="Racing in UK">
+                    </div>
+                    <!-- Back Side -->
+                    <div class="slideshow__card-back">
+                        <h3 class="slideshow__title">UK</h3>
+                        <p class="slideshow__description">From the rain-soaked streets of London to country roads lined with misty moors – here classic British charm and underground street racing meet in a race where every turn counts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Dots -->
+        <div class="slideshow__dots"></div>
+    </div>
+    </section>
+
+ <section class="race-container">
+  <h2 class="race-container__title">Race Details</h2>
+  <div id="race-list" class="race-list">
+    <!-- Dynamiskt innehåll via JS -->
+  </div>
+</section>
+
+
+
+
+
+<footer class="site-footer">
+    <div class="site-footer__content">
+      <h3 class="site-footer__logo"><i class="fas fa-flag-checkered"></i> NightRacer</h3>
+      <p class="site-footer__tagline">Fuel the night. Chase the thrill. Own the road.</p>
+  
+      <ul class="social-icons">
+        <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a></li>
+        
+      </ul>
+  
+      <p class="footer-credit">© 2025 NightRacer Project. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+
+    <script src="./javascript/home.js"></script>
+    <script src="./javascript/audiocode.js"></script>
+    <script src="./javascript/slideshow.js"></script>
+    <script src="./javascript/events.js"></script>
+    
+</body>
+</html>
